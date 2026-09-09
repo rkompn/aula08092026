@@ -1,0 +1,47 @@
+.pai{
+    width: 98%;
+    height: 550px;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    background-color: yellow;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    
+    margin-right: 20px;
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 10px;
+}
+.principal{
+    display: flex;
+    
+    height: 85%;
+}
+main{
+    background-color: orange;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside{
+    background-color: aqua;
+    width: 10%;
+    order: -1;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 10%;
+}
